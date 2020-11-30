@@ -1,2 +1,4 @@
 /tiles/
 *.mbtiles
+/mbutil/
+/rasterize-vector-tiles/

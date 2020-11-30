@@ -1,0 +1,6 @@
+[submodule "rasterize-vector-tiles"]
+	path = rasterize-vector-tiles
+	url = https://github.com/bjornreppen/rasterize-vector-tiles.git
+[submodule "mbutil"]
+	path = mbutil
+	url = git://github.com/mapbox/mbutil.git
