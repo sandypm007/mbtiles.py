@@ -2,3 +2,4 @@
 *.mbtiles
 /mbutil/
 /rasterize-vector-tiles/
+/.idea/
