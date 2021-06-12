@@ -67,5 +67,6 @@ while len(lines) > 0:
             retry.append(line)
         sleep(1)  # sleep for 1 second to avoid flush blocks
     lines = retry
-    print('pause 5 secs and retry', len(lines))
-    sleep(5)
+    if len(lines) > 0:
+        print('pause 5 secs and retry', len(lines))
+        sleep(5)
